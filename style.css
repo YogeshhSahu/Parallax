@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(sunset-8170058.jpg);
+    background-size: cover;
+    height: 100vh;  
+    width: 100vw;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+} 
+header{
+    background:transparent ;
+    height: 100vh;
+}
+nav{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.559);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+head nav .head .text{
+    margin-top: 40vh;
+}
+.logo{ 
+    display:inline-block;
+    margin: 10px;
+}
+
+.logo img{
+    height: 40px;
+    width: 35px;
+    margin-left: 0px;
+    padding:0px;
+}
+
+.menu{
+    display:inline-block; 
+    margin-left: 65vw;
+}
+
+.menu ul{
+    display: inline-block;  
+
+}
+.menu ul li{
+    display: inline-block;  
+    margin-left: 40px;
+    
+}
+button{
+    background:transparent;
+    color: white;
+    border: none; 
+    justify-content:space-around;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.menu button:hover{
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.559);
+    border-radius: 5px;
+    padding:10px;
+}
+section{
+    width: 100vw; 
+    background-color: rgba(63, 120, 177, 0.461);
+    color: white;
+    text-align: center;
+    backdrop-filter:blur(5px); 
+}
+ 
+.img1{
+    background-image: url(man-8046025.jpg);
+    height:400px;
+    
+}
+.img2{
+    background-image: url(river-8181298.jpg);
+    height: 400px;
+}
+.img3{
+    background-image: url(islet-8110071.jpg);
+    height: 400px;
+}
+.img1, .img2, .img3{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    color: white;
+    font-size: 150px; 
+    text-align: center; 
+    padding-top: 150px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding:15px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    box-sizing:content-box;
+    text-align: left; 
+    padding:20px;
+    font-size: 25px;
+}
+
+.head{
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.559);
+    border-radius: 5px;
+    padding:10px;
+    width: 60vw; 
+    margin:60px 0 60px 20vw;
+}
